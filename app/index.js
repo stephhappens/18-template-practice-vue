@@ -8,13 +8,13 @@ import App from './routes/application.vue';
 
 Vue.use(VueRouter);
 //
-// const routes = [
+const routes = [
 //   {
 //     path: '/',
 //     name: 'index',
 //     component: Index,
 //   },
-// ];
+];
 
 const router = new VueRouter({
   mode: 'history',
